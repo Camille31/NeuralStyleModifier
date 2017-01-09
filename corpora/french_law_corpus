@@ -1,0 +1,5 @@
+# empty lines and lines starting with # are ignored
+# other lines define the corpus
+# each line describes one dataset, giving following values (separated with tabs):
+# relative_path  format  style language  source
+french_civil_code	md	formal	fr	https://github.com/steeve/france.code-civil
