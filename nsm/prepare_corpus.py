@@ -62,7 +62,7 @@ def generate_sentences_file(input_file_path, output_file_path):
 		sentences = tokenizer.tokenize(input_file_content)
 		with codecs.open(output_file_path, 'w', encoding='utf8') as output_sentences_file:
 			for sentence in sentences:
-				output_sentences_file.write(sentence.replace("\n", " ") + os.linesep + os.linesep)
+				output_sentences_file.write(sentence.replace("\n", " ") + os.linesep)
 
 def generate_files_for_dataset(dataset, output_folder_path):
 	if not os.path.exists(output_folder_path):
